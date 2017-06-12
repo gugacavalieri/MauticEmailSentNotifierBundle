@@ -3,6 +3,8 @@
 Bundle features:
 * Make a HTTP request everytime an email is sent!
 
+![example](https://photos-4.dropbox.com/t/2/AAD4m14mjxpqhydvCTMIxXjrfAIMk7wN5W-DGrJo00v1yw/12/32608586/png/32x32/3/1497312000/0/2/mautic-emailSent-example.png/EMuK2xgY6-EJIAcoBw/mijYDP8hjtX65wEa--xQOdOhiu8s2ZHeRcHw1rtJKf8?dl=0&size=1280x960&size_mode=3)
+
 ## Quick Start:
 
 1. Clone this repo inside your mautic plugins directory
