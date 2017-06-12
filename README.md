@@ -3,8 +3,6 @@
 Bundle features:
 * Make a HTTP request everytime an email is sent!
 
-![example](https://photos-1.dropbox.com/t/2/AACPAFOY7YJqK1tXf0wTlrYncigTLZVVFPjTNpNcxdWg-A/12/32608586/png/32x32/1/_/1/2/mautic-emailSent-example.png/EMuK2xgY7OEJIAcoBw/s7iXzD5kEqYf0UX5tvuG2Q-yWTUhmRysp2h5qRSTVgw?size=1280x960&size_mode=3)
-
 ## Quick Start:
 
 1. Clone this repo inside your mautic plugins directory
@@ -20,6 +18,8 @@ php app/console cache:clear
 * Webhook URL
 * API Key (for validating request at server side)
 * Mautic Base URL for View In Browser URL
+
+![example](https://photos-5.dropbox.com/t/2/AABzZOgHI7EN6T4JvLlcrbzhK5-zIGMdkIy7EMQcu9oBMg/12/32608586/png/32x32/3/1497312000/0/2/mautic-emailSent-example.png/EMuK2xgY7OEJIAcoBw/s7iXzD5kEqYf0UX5tvuG2Q-yWTUhmRysp2h5qRSTVgw?dl=0&size=1280x960&size_mode=3)
 
 ## FAQ
 
