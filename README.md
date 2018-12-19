@@ -14,10 +14,12 @@ git clone https://github.com/gugacavalieri/mautic-sentEmail-webhook.git
 ```
 php app/console cache:clear
 ```
-3. Open Mautic Plugins Page and configure:
-* Webhook URL
-* API Key (for validating request at server side)
-* Mautic Base URL for View In Browser URL
+3. Open Mautic Plugins Page and click on **Install/Upgrade Plugins**
+
+4. Configure:
+  * Webhook URL
+  * API Key (for validating request at server side)
+  * Mautic Base URL for View In Browser URL
 
 ![image](https://user-images.githubusercontent.com/4624484/50228041-4470e700-038e-11e9-8fad-792f1a49520f.png)
 
