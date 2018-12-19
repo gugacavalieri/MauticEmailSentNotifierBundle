@@ -19,7 +19,10 @@ php app/console cache:clear
 * API Key (for validating request at server side)
 * Mautic Base URL for View In Browser URL
 
-![example](https://photos-5.dropbox.com/t/2/AABzZOgHI7EN6T4JvLlcrbzhK5-zIGMdkIy7EMQcu9oBMg/12/32608586/png/32x32/3/1497312000/0/2/mautic-emailSent-example.png/EMuK2xgY7OEJIAcoBw/s7iXzD5kEqYf0UX5tvuG2Q-yWTUhmRysp2h5qRSTVgw?dl=0&size=1280x960&size_mode=3)
+![image](https://user-images.githubusercontent.com/4624484/50228041-4470e700-038e-11e9-8fad-792f1a49520f.png)
+
+## Extra info
+1. Make sure the folder is named MauticEmailSentNotifierBundle (same name as MauticEmailSentNotifierBundle.php)
 
 ## FAQ
 
