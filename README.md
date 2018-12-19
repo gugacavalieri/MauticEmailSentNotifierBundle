@@ -8,7 +8,7 @@ Bundle features:
 1. Clone this repo inside your mautic plugins directory
 
 ```bash
-git clone https://github.com/gugacavalieri/mautic-sentEmail-webhook.git
+git clone https://github.com/gugacavalieri/MauticEmailSentNotifierBundle.git
 ```
 2. Clean cache using symfony commands
 ```
