@@ -22,7 +22,7 @@ php app/console cache:clear
 ![image](https://user-images.githubusercontent.com/4624484/50228041-4470e700-038e-11e9-8fad-792f1a49520f.png)
 
 ## Extra info
-1. Make sure the folder is named MauticEmailSentNotifierBundle (same name as MauticEmailSentNotifierBundle.php)
+1. Make sure the folder is named MauticEmailSentNotifierBundle *(same name as MauticEmailSentNotifierBundle.php)* . Otherwise you will get an namespace error when trying to clear the cache
 
 ## FAQ
 
