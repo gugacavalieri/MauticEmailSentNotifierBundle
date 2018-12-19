@@ -9,15 +9,15 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\EmailSentBundle\Integration;
+namespace MauticPlugin\MauticEmailSentNotifierBundle\Integration;
 
 use Mautic\PluginBundle\Integration\AbstractIntegration;
 
-class EmailSentIntegration extends AbstractIntegration
+class EmailSentNotifierIntegration extends AbstractIntegration
 {
     public function getName()
     {
-        return 'EmailSent';
+        return 'EmailSentNotifier';
     }
 
     /**
@@ -40,9 +40,9 @@ class EmailSentIntegration extends AbstractIntegration
     public function getRequiredKeyFields()
     {
         return [
-            'webhookUrl' => 'mautic.integration.emailsent.webhookUrl',
-            'apiKey' => 'mautic.integration.emailsent.apiKey',
-            'mauticBaseUrl' => 'mautic.integration.emailsent.mauticBaseUrl',
+            'webhookUrl' => 'mautic.integration.emailsentnotifier.webhookUrl',
+            'apiKey' => 'mautic.integration.emailsentnotifier.apiKey',
+            'mauticBaseUrl' => 'mautic.integration.emailsentnotifier.mauticBaseUrl',
         ];
     }
 

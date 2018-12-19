@@ -7,7 +7,7 @@
 *
 * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
-namespace MauticPlugin\EmailSentBundle\EventListener;
+namespace MauticPlugin\MauticEmailSentNotifierBundle\EventListener;
 
 use Mautic\CoreBundle\EventListener\CommonSubscriber;
 use Mautic\CoreBundle\Helper\BuilderTokenHelper;
@@ -15,7 +15,7 @@ use Mautic\EmailBundle\EmailEvents;
 use Mautic\EmailBundle\Event\EmailBuilderEvent;
 use Mautic\EmailBundle\Event\EmailSendEvent;
 use Mautic\LeadBundle\Helper\TokenHelper;
-use MauticPlugin\EmailSentBundle\Helper\EmailSentHelper;
+use MauticPlugin\MauticEmailSentNotifierBundle\Helper\EmailSentHelper;
 /**
 * Class EmailSubscriber.
 */

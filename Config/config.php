@@ -10,14 +10,14 @@
  */
 
 return [
-    'name'        => 'Email-Sent',
+    'name'        => 'Email Sent Notifier',
     'description' => 'Create a Webhook to subscribe to email sent events',
-    'version'     => '1.0',
+    'version'     => '1.0.1',
     'author'      => 'Gustavo Cavalieri',
     'services'    => array(
         'events' => array(
-            'plugin.emailsent.email.subscribe' => array(
-                'class'     => 'MauticPlugin\EmailSentBundle\EventListener\CustomEmailSubscriber',
+            'plugin.emailsentnotifier.email.subscribe' => array(
+                'class'     => 'MauticPlugin\MauticEmailSentNotifierBundle\EventListener\CustomEmailSubscriber',
                 'arguments' => [
                     'mautic.email.model.email'
                 ]

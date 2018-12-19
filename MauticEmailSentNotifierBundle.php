@@ -7,12 +7,12 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\EmailSentBundle;
+namespace MauticPlugin\MauticEmailSentNotifierBundle;
 
 use Mautic\PluginBundle\Bundle\PluginBundleBase;
-use MauticPlugin\EmailSentBundle\Helper\EmailSentHelper;
+use MauticPlugin\MauticEmailSentNotifierBundle\Helper\EmailSentHelper;
 
-class EmailSentBundle extends PluginBundleBase
+class MauticEmailSentNotifierBundle extends PluginBundleBase
 {
     // Nothing more required
 
