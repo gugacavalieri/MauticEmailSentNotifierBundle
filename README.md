@@ -1,4 +1,4 @@
-# Mautic Email Sent Webhook
+# Mautic Email Sent Notifier (Webhook)
 
 Bundle features:
 * Make a HTTP request everytime an email is sent!
