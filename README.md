@@ -1,7 +1,7 @@
 # Mautic Email Sent Notifier (Webhook)
 
 <p align="right">
-  <code>LIKED ? Leave a <a href="https://github.com/gugacavalieri/stryker-meteor-integration/stargazers">⭐</a> : <a href="https://github.com/gugacavalieri/stryker-meteor-integration/issues">😞</a></code>
+  <code>LIKED ? Leave a <a href="https://github.com/gugacavalieri/MauticEmailSentNotifierBundle/stargazers">⭐</a> : <a href="https://github.com/gugacavalieri/MauticEmailSentNotifierBundle/issues">😞</a></code>
 </p>
 
 Bundle features:
