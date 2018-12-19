@@ -1,5 +1,9 @@
 # Mautic Email Sent Notifier (Webhook)
 
+<p align="right">
+  <code>LIKED ? Leave a <a href="https://github.com/gugacavalieri/stryker-meteor-integration/stargazers">⭐</a> : <a href="https://github.com/gugacavalieri/stryker-meteor-integration/issues">😞</a></code>
+</p>
+
 Bundle features:
 * Make a HTTP request everytime an email is sent!
 
