@@ -40,7 +40,7 @@ class EmailSentHelper
     public static function getIntegration()
     {
         try {
-            return self::$integratonHelper->getIntegrationObject('EmailSent');
+            return self::$integratonHelper->getIntegrationObject('EmailSentNotifier');
         } catch (\Exception $e) {
             // do nothing
         }
