@@ -20,7 +20,7 @@ class EmailSentHelper
     /**
     * @var IntegrationHelper
     */
-    private static $integratonHelper;
+    private static $integrationHelper;
 
     /**
     * @param IntegrationHelper $helper
@@ -28,7 +28,7 @@ class EmailSentHelper
     */
     public static function init(IntegrationHelper $helper)
     {
-        self::$integratonHelper = $helper;
+        self::$integrationHelper = $helper;
     }
 
 
@@ -40,7 +40,7 @@ class EmailSentHelper
     public static function getIntegration()
     {
         try {
-            return self::$integratonHelper->getIntegrationObject('EmailSentNotifier');
+            return self::$integrationHelper->getIntegrationObject('EmailSentNotifier');
         } catch (\Exception $e) {
             // do nothing
         }
